@@ -1,0 +1,68 @@
+@import "../assets/scss/_common";
+
+#hero {
+  background-color: $main-color;
+  height: 120px;
+}
+
+#contents {
+  background-color: $bg-color;
+}
+#main {
+  margin-top: $spacer*3;
+  margin-bottom: $spacer*3;
+}
+
+#sidebar {
+  margin-top: $spacer*3;
+  margin-bottom: $spacer*3;
+  .sidebar-title {
+    font-size: 2rem;
+    font-weight: normal;
+    font-family: $font-h;
+    border-left: $spacer solid $main-color;
+    padding-left: $spacer;
+  }
+  .sidebar-box {
+    background-color: $main-color;
+    .sidebar-places {
+      padding: $spacer $spacer*3;
+    }
+    li {
+      list-style: none;
+      padding: $spacer*1.5 0;
+      & + li {
+        border-top: 1px solid $white;
+      }
+      a {
+        background: url("/assets/img/icon-dammy.png") left center no-repeat;
+        background-size: 5rem 5rem;
+        padding-left: 6rem;
+        color: $font-color;
+        font-weight: bold;
+        display: block;
+        line-height: 5rem;
+      }
+    }
+  }
+}
+#footer {
+  background-color: $font-color;
+  color: $white;
+  padding: $spacer*2 0 $spacer;
+  .footer-link {
+    text-align: center;
+    margin: 0 0 $spacer 0;
+    a {
+      color: $white;
+      display: inline-block;
+      margin: 0 $spacer*0.5;
+    }
+  }
+  .copyright {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 1.0rem;
+  }
+}

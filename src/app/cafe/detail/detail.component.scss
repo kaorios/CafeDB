@@ -1,0 +1,42 @@
+@import "../../../assets/scss/_setting";
+
+.hours-table {
+  margin: $spacer 0;
+  width: 100%;
+  th {
+    background-color: $main-color;
+    font-weight: normal;
+    padding: $spacer*0.5 $spacer;
+    text-align: center;
+    font-size: 0.9em;
+    font-family: $font-h;
+  }
+  td {
+    border: 1px solid $main-color;
+    padding: $spacer*0.5 $spacer;
+  }
+}
+.item-container {
+  margin-bottom: $spacer*3;
+}
+.article-container {
+  margin-bottom: $spacer*3;
+  padding: $spacer*2 $spacer;
+  background-color: $white;
+  box-shadow: 0px 1px 5px 1px $main-color;
+  h3 {
+    border-left: 10px solid $main-color;
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: $font-size-h3;
+    margin: $spacer*4 0;
+  }
+  h4 {
+    font-weight: bold;
+    font-size: $font-size-h4;
+    margin: $spacer*4 0;    
+  }
+  img {
+    margin: $spacer 0;
+  }
+}

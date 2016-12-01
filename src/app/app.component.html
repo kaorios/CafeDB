@@ -1,0 +1,53 @@
+<common-header></common-header>
+
+<div id="hero">
+</div>
+
+<div id="contents">
+  <div class="container">
+    <div class="row">
+      <main>
+        <div id="main" class="col-md-9 col-md-push-3">
+          <router-outlet></router-outlet>
+        </div>
+      </main>
+      <div id="sidebar" class="col-md-3  col-md-pull-9">
+        <h3 class="sidebar-title">NEAR BY</h3>
+        <div class="sidebar-box">
+          <ul class="sidebar-places">
+            <li class="waterfront"><a href="#">Waterfront</a></li>
+            <li class="burrard"><a href="#">Burrard</a></li>
+            <li class="granville"><a href="#">Granville</a></li>
+            <li class="englishbay"><a href="#">EnglishBay</a></li>
+            <li class="yaletown"><a href="#">Yaletown</a></li>
+          </ul>
+        </div>
+
+        <h3 class="sidebar-title">NEAR BY</h3>
+        <div class="sidebar-box">
+          <ul class="sidebar-places">
+            <li class="waterfront"><a href="#">Waterfront</a></li>
+            <li class="burrard"><a href="#">Burrard</a></li>
+            <li class="granville"><a href="#">Granville</a></li>
+            <li class="englishbay"><a href="#">EnglishBay</a></li>
+            <li class="yaletown"><a href="#">Yaletown</a></li>
+          </ul>
+        </div>
+      </div><!-- sidebar -->
+    </div><!-- row -->
+  </div><!-- container -->
+</div><!-- contents -->
+
+<footer id="footer">
+    <nav class="footer-link">
+    <a [routerLink]="['/']">
+      HOME
+    </a>
+    |
+    <a [routerLink]="['/cafe', '']">
+      Cafe
+    </a>
+  </nav>
+
+  <p class="copyright">copyright &copy; 2016 cafedb.</p>
+</footer>

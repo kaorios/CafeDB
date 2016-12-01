@@ -1,0 +1,190 @@
+{
+  "data": [
+    { 
+      "id": "cafe-calabria",
+      "name": "Cafe Calabria",
+      "namejp": "カフェ・カラブリア",
+      "thumb": {
+          "small": "/assets/img/cafe-calabria.jpg"
+      },
+      "street": "Commercial Dr * East 2nd St",
+      "hours": [
+        {
+            "day": "mon",
+            "open": "6:00am",
+            "close": "10:00pm"
+        },
+        {
+            "day": "tue",
+            "open": "7:00am",
+            "close": "11:00pm"
+        },
+        {
+            "day": "wed",
+            "open": "8:00am",
+            "close": "12:00pm"
+        },
+        {
+            "day": "thu",
+            "open": "6:00am",
+            "close": "10:00pm"
+        },
+        {
+            "day": "fri",
+            "open": "6:00am",
+            "close": "10:00pm"
+        },
+        {
+            "day": "sat",
+            "open": "6:00am",
+            "close": "10:00pm"
+        },
+        {
+            "day": "sun",
+            "open": "6:00am",
+            "close": "10:00pm"
+        }
+      ],
+      "address": "1731 Commercial Dr Vancouver, BC"
+    },
+    { 
+      "id": "cafe-calabria2",
+      "name": "Cafe Calabria2",
+      "namejp": "カフェ・カラブリア",
+      "thumb": {
+          "small": "/assets/img/cafe-calabria.jpg"
+      },
+      "street": "Commercial Dr * East 2nd St",
+      "hours": [
+        {
+            "day": "mon",
+            "open": "6:00am",
+            "close": "10:00pm"
+        },
+        {
+            "day": "tue",
+            "open": "7:00am",
+            "close": "11:00pm"
+        },
+        {
+            "day": "wed",
+            "open": "8:00am",
+            "close": "12:00pm"
+        },
+        {
+            "day": "thu",
+            "open": "6:00am",
+            "close": "10:00pm"
+        },
+        {
+            "day": "fri",
+            "open": "6:00am",
+            "close": "10:00pm"
+        },
+        {
+            "day": "sat",
+            "open": "6:00am",
+            "close": "10:00pm"
+        },
+        {
+            "day": "sun",
+            "open": "6:00am",
+            "close": "10:00pm"
+        }      ],
+      "address": "1731 Commercial Dr Vancouver, BC"
+    },
+    { 
+      "id": "cafe-calabria3",
+      "name": "Cafe Calabria3",
+      "namejp": "カフェ・カラブリア",
+      "thumb": {
+          "small": "/assets/img/cafe-calabria.jpg"
+      },
+      "street": "Commercial Dr * East 2nd St",
+      "hours": [
+        {
+            "day": "mon",
+            "open": "6:00am",
+            "close": "10:00pm"
+        },
+        {
+            "day": "tue",
+            "open": "7:00am",
+            "close": "11:00pm"
+        },
+        {
+            "day": "wed",
+            "open": "8:00am",
+            "close": "12:00pm"
+        },
+        {
+            "day": "thu",
+            "open": "6:00am",
+            "close": "10:00pm"
+        },
+        {
+            "day": "fri",
+            "open": "6:00am",
+            "close": "10:00pm"
+        },
+        {
+            "day": "sat",
+            "open": "6:00am",
+            "close": "10:00pm"
+        },
+        {
+            "day": "sun",
+            "open": "6:00am",
+            "close": "10:00pm"
+        }      ],
+      "address": "1731 Commercial Dr Vancouver, BC"
+    },
+    { 
+      "id": "cafe-calabria4",
+      "name": "Cafe Calabria4",
+      "namejp": "カフェ・カラブリア",
+      "thumb": {
+          "small": "/assets/img/cafe-calabria.jpg"
+      },
+      "street": "Commercial Dr * East 2nd St",
+      "hours": [
+        {
+            "day": "mon",
+            "open": "6:00am",
+            "close": "10:00pm"
+        },
+        {
+            "day": "tue",
+            "open": "7:00am",
+            "close": "11:00pm"
+        },
+        {
+            "day": "wed",
+            "open": "8:00am",
+            "close": "12:00pm"
+        },
+        {
+            "day": "thu",
+            "open": "6:00am",
+            "close": "10:00pm"
+        },
+        {
+            "day": "fri",
+            "open": "6:00am",
+            "close": "10:00pm"
+        },
+        {
+            "day": "sat",
+            "open": "6:00am",
+            "close": "10:00pm"
+        },
+        {
+            "day": "sun",
+            "open": "6:00am",
+            "close": "10:00pm"
+        }      ],
+      "address": "1731 Commercial Dr Vancouver, BC"
+    }
+
+  ]
+}

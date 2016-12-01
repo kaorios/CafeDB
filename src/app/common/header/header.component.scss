@@ -1,0 +1,15 @@
+@import "../../../assets/scss/_setting";
+
+#header {
+  padding: $spacer 0;
+  h1 {
+    font-size: 2rem;
+    font-weight: normal;
+    font-family: $font-h;
+    margin: 0;
+    padding: 0;
+    a {
+      color: $font-color;
+    }
+  }
+}

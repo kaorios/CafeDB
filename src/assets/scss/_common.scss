@@ -1,0 +1,96 @@
+@import "./_setting";
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+ul, li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+
+.page-title {
+  margin: 0 -15px $spacer;
+  font-size: 5rem;
+  font-weight: normal;
+  font-family: $font-h;
+}
+
+.item-container {
+  padding: $spacer*2 $spacer;
+  background-color: $white;
+  box-shadow: 0px 1px 5px 1px $main-color;
+  position: relative;
+  &>a {
+    display: block;
+    color: $font-color;
+  }
+  .photo-box {
+    overflow: hidden;
+  }
+  .info-box {
+    h3 {
+      margin: $spacer*2 0 $spacer;
+    }
+    .cafe-icon-list {
+      margin-bottom: $spacer*2;
+    }
+    .sub-info {
+      background-color: $light-brown;
+      padding: $spacer $spacer*2;
+      p {
+        margin: 0 0 $spacer*0.5;
+      }
+      .todayhours {
+        font-weight: bold;
+        span {
+          font-size: 0.9em;
+          margin-right: $spacer;
+        }
+      }
+      address {
+        margin-bottom: $spacer*0.5;
+        margin-right: $spacer;
+        display: inline-block;
+        font-weight: bold;
+      }
+    }
+
+  }
+  .interest {
+    font-size: 2.5rem;
+    position: absolute;
+    right: $spacer*2;
+    span {
+      color: $light-gray;
+      &.checked {
+        color: $sub-color;
+      }
+    }
+  }
+}
+
+.cafe-icon-list {
+  overflow: hidden;
+  li {
+    float: left;
+    margin-right: $spacer*0.5;
+    span {
+      padding: $spacer*0.8;
+      background-color: $light-brown;
+      color: $light-gray;
+      font-size: 1.6rem;
+      display: block;
+    }
+    &.active {
+      span {
+        background-color: $brown;
+        color: $white;
+      }
+    }
+  }
+}

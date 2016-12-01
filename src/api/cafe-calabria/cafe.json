@@ -1,0 +1,51 @@
+{
+  "data": 
+    { 
+      "id": "cafe-calabria",
+      "name": "Cafe Calabria",
+      "namejp": "カフェ・カラブリア",
+      "thumb": {
+          "small": "/assets/img/cafe-calabria.jpg"
+      },
+      "street": "Commercial Dr * East 2nd St",
+      "hours": [
+        {
+            "day": "mon",
+            "open": "6:00am",
+            "close": "10:00pm"
+        },
+        {
+            "day": "tue",
+            "open": "7:00am",
+            "close": "11:00pm"
+        },
+        {
+            "day": "wed",
+            "open": "8:00am",
+            "close": "12:00pm"
+        },
+        {
+            "day": "thu",
+            "open": "6:00am",
+            "close": "10:00pm"
+        },
+        {
+            "day": "fri",
+            "open": "6:00am",
+            "close": "10:00pm"
+        },
+        {
+            "day": "sat",
+            "open": "6:00am",
+            "close": "10:00pm"
+        },
+        {
+            "day": "sun",
+            "open": "6:00am",
+            "close": "10:00pm"
+        }
+      ],
+      "address": "1731 Commercial Dr Vancouver, BC",
+      "contents": "<h3>バンクーバーでチーズケーキと言えばここ。</h3><p>グランビル、ガスタウン、イエールタウンにあります。個人的にはガスタウンのソファー席とかがおすすめです。</p><img src='assets/img/cafe-calabria.jpg'/><p>奥がSINケーキ（ベリーとチョコのMIX）手前がウォールナッツキャラメル。sinはかなり人気です。お試しあれ。</p><h3>バンクーバーでチーズケーキと言えばここ。</h3><p>グランビル、ガスタウン、イエールタウンにあります。個人的にはガスタウンのソファー席とかがおすすめです。</p><img src='assets/img/cafe-calabria.jpg'/><p>奥がSINケーキ（ベリーとチョコのMIX）手前がウォールナッツキャラメル。sinはかなり人気です。お試しあれ。</p><h4>バンクーバーでチーズケーキと言えばここ。</h4><p>グランビル、ガスタウン、イエールタウンにあります。個人的にはガスタウンのソファー席とかがおすすめです。</p><img src='assets/img/cafe-calabria.jpg'/><p>奥がSINケーキ（ベリーとチョコのMIX）手前がウォールナッツキャラメル。sinはかなり人気です。お試しあれ。</p>"
+    }
+}

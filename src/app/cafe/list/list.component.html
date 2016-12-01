@@ -1,0 +1,26 @@
+<ul class="cafes">
+  <li *ngFor="let cafe of cafes | async" class="item">
+    <div class="item-container row">
+      <a [routerLink]="['/cafe', cafe.id]" >
+        <div class="photo-box col-sm-7">
+          <img alt="{{cafe.name}}" class="photo-box-img" src="{{cafe.thumb.small}}">
+        </div>
+        <div class="info-box col-sm-5">
+          <h3>{{cafe.name}}</h3>
+          <p class="namejp">{{cafe.namejp}}</p>
+          <ul class="cafe-icon-list">
+            <li class="active"><span class="icon-connection"></span></li>
+            <li><span class="icon-power-cord"></span></li>
+            <li><span class="glyphicon glyphicon-star" aria-hidden="true"></span></li>
+          </ul>
+          <div class="sub-info">
+            <p class="todayhours"><span>本日の営業：</span>{{cafe | todayhours}}</p>
+            <address>{{cafe.address}}</address><a href="#">MAP</a>
+            <p class="street">{{cafe.street}}</p>
+          </div>
+        </div>
+      </a>
+      <p class="interest"><span class="icon-star-full"></span></p>
+    </div>
+  </li>
+</ul>

@@ -1,0 +1,38 @@
+<div *ngIf="cafeDetail">
+<h2 class="page-title">{{ cafeDetail.name }}</h2>
+<div class="item-container row">
+  <div class="photo-box col-sm-12">
+    <img alt="{{cafeDetail.name}}" class="photo-box-img" src="{{cafeDetail.thumb.small}}">
+  </div>
+  <div class="info-box col-sm-12">
+    <h3>{{ cafeDetail.name }}</h3>
+    <p class="namejp">{{ cafeDetail.namejp}}</p>
+    <ul class="cafe-icon-list">
+      <li class="active"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></li>
+      <li><span class="glyphicon glyphicon-star" aria-hidden="true"></span></li>
+      <li><span class="glyphicon glyphicon-star" aria-hidden="true"></span></li>
+    </ul>
+    <div class="sub-info">
+      <address>{{cafeDetail.address}}</address><a href="#">MAP</a>
+      <p class="street">{{cafeDetail.street}}</p>
+    </div>
+
+    <table class="hours-table">
+      <tr *ngFor="let hours of cafeDetail.hours">
+        <th>{{hours.day}}</th>
+        <td>{{ hours | formathours}}</td>
+      </tr>
+    </table>
+
+  </div>
+</div>
+
+<article class="article-container row">
+  <div class="col-sm-12">
+    <div [innerHTML]="contents"></div>
+  </div>
+</article>
+</div>
+
+<h2 class="page-title">NEAR THIS</h2>
+<cafe-list></cafe-list>
